@@ -1,4 +1,5 @@
 ---
+author: Rishi Sharma
 defaults:
   # _posts
   - scope:
