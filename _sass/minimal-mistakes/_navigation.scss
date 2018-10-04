@@ -221,6 +221,7 @@
     -ms-flex: 1;
     flex: 1;
     overflow: hidden;
+    font-size: $navlink-size;
 
     li {
       -webkit-box-flex: 0;
@@ -231,25 +232,25 @@
     a {
       position: relative;
 
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 4px;
-        background: $primary-color;
-        width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
-        -webkit-transform: scaleX(0) translate3d(0, 0, 0);
-        transform: scaleX(0) translate3d(0, 0, 0); // hide
-      }
+      // &:before {
+      //   content: "";
+      //   position: absolute;
+      //   left: 0;
+      //   bottom: 0;
+      //   height: 4px;
+      //   background: $primary-color;
+      //   width: 100%;
+      //   -webkit-transition: $global-transition;
+      //   transition: $global-transition;
+      //   -webkit-transform: scaleX(0) translate3d(0, 0, 0);
+      //   transform: scaleX(0) translate3d(0, 0, 0); // hide
+      // }
 
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-        transform: scaleX(1); // reveal
-      }
+      // &:hover:before {
+      //   -webkit-transform: scaleX(1);
+      //   -ms-transform: scaleX(1);
+      //   transform: scaleX(1); // reveal
+      // }
     }
   }
 

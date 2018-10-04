@@ -108,6 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.15)
+  jekyll-paginate
   minimal-mistakes-jekyll!
   rake (~> 10.0)
 
