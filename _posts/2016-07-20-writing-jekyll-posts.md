@@ -12,5 +12,4 @@ defaults:
       share: true
       related: true
 ---
-
-TOloasdjkabnsdkj
+This is a post.
