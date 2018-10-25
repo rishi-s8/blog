@@ -15,7 +15,7 @@
   height: auto;
   /* sticky footer fix end */
   margin-top: 3em;
-  color: $muted-text-color;
+  color: $footer-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
@@ -26,7 +26,6 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
     max-width: 100%;
     padding: 0 1em 2em;
 
@@ -40,7 +39,8 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      color: $link-color;
     }
   }
 
@@ -88,4 +88,18 @@
       white-space: nowrap;
     }
   }
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.footerhead {
+  margin-top: -10px;
+}
+
+.flexcontainer {
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
 }
