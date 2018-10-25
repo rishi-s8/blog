@@ -22,6 +22,18 @@
   animation-delay: 0.45s;
   background-color: $footer-background-color;
 
+  .fa-facebook,
+  .fa-facebook-square,
+  .fa-facebook-f {
+    color: white !important;
+  }
+
+  .fa-github,
+  .fa-github-alt,
+  .fa-github-square {
+    color: white !important;
+  }
+
   footer {
     @include clearfix;
     margin-left: auto;
@@ -84,6 +96,7 @@
   }
 
   .social-icons {
+    color: white !important;
     a {
       white-space: nowrap;
     }
@@ -92,10 +105,15 @@
 
 .list-unstyled {
   list-style: none;
+  font-size: $footer-text-size;
 }
 
 .footerhead {
   margin-top: -10px;
+}
+
+.footerhead ul {
+  padding-inline-start: 0px;
 }
 
 .flexcontainer {
